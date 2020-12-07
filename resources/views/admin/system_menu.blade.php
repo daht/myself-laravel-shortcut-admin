@@ -158,7 +158,7 @@
                 </button>
             </div>
             <div class="card-body">
-                <form class="form-horizontal" id="create_form" onsubmit="return false;">
+                <form class="form-horizontal" id="update_form" onsubmit="return false;">
                     <div class="form-group">
                         <label class="col-md-3 control-label" for="example-hf-email">上级权限</label>
                         <div class="col-md-7">
@@ -195,7 +195,7 @@
                             <input type="hidden" name="is_menu" value="1">
                             <input type="hidden" name="method" value="0">
                             <input type="hidden" name="admin_route_id">
-                            <button type="button" class="btn btn-primary create_btn">提交</button>
+                            <button type="button" class="btn btn-primary update_btn">提交</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
                         </div>
                     </div>

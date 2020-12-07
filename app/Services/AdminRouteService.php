@@ -16,7 +16,7 @@ class AdminRouteService
         $user = Auth::user();
         $tree = [];
 
-        $all = AdminRoute::query()->where('is_menu', 1)->get();
+        $all = AdminRoute::query()->where('is_menu', 1)->orderBy('sort','desc')->get();
         if ($all->isEmpty()) {
             return $tree;
         }
